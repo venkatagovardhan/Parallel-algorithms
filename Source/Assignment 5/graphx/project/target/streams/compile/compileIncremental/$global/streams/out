@@ -1,0 +1,121 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\target\scala-2.10\sbt-0.13\classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Running cached compiler 4fcad5f6, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk1.8.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_71\jre\classes;C:\Users\Venkata Govardhan\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\target\scala-2.10\sbt-0.13\classes;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\actions\jars\actions-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\classpath\jars\classpath-0.13.8.jar;C:\Users\Venkata Govardhan\.sbt\boot\scala-2.10.4\lib\scala-compiler.jar;C:\Users\Venkata Govardhan\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\launcher-interface\jars\launcher-interface-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\interface\jars\interface-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\control\jars\control-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\completion\jars\completion-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\jline\jline\jars\jline-2.11.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\api\jars\api-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\compiler-integration\jars\compiler-integration-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\incremental-compiler\jars\incremental-compiler-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\logging\jars\logging-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\process\jars\process-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\relation\jars\relation-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\compile\jars\compile-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\classfile\jars\classfile-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\persist\jars\persist-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-tools.sbinary\sbinary_2.10\jars\sbinary_2.10-0.4.2.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\compiler-ivy-integration\jars\compiler-ivy-integration-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\cross\jars\cross-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt.ivy\ivy\jars\ivy-2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f.jar;C:\Users\Venkata Govardhan\.ivy2\cache\com.jcraft\jsch\jars\jsch-0.1.46.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\serialization_2.10\jars\serialization_2.10-0.1.1.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-lang.modules\scala-pickling_2.10\jars\scala-pickling_2.10-0.10.0.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scalamacros\quasiquotes_2.10\jars\quasiquotes_2.10-2.0.1.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.json4s\json4s-core_2.10\jars\json4s-core_2.10-3.2.10.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.json4s\json4s-ast_2.10\jars\json4s-ast_2.10-3.2.10.jar;C:\Users\Venkata Govardhan\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.spire-math\jawn-parser_2.10\jars\jawn-parser_2.10-0.6.0.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.spire-math\json4s-support_2.10\jars\json4s-support_2.10-0.6.0.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\run\jars\run-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\tasks\jars\tasks-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\tracking\jars\tracking-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\cache\jars\cache-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\testing\jars\testing-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\test-agent\jars\test-agent-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\command\jars\command-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\logic\jars\logic-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\compiler-interface\jars\compiler-interface-src-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\compiler-interface\jars\compiler-interface-bin-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\precompiled-2_8_2\jars\compiler-interface-bin-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\precompiled-2_9_2\jars\compiler-interface-bin-0.13.8.jar;C:\Users\Venkata Govardhan\.ivy2\cache\org.scala-sbt\precompiled-2_9_3\jars\compiler-interface-bin-0.13.8.jar
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:2: object spark is not a member of package org.apache
+[error] import org.apache.spark
+[error]        ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:6: object spark is not a member of package org.apache
+[error] import org.apache.spark.rdd.RDD
+[error]                   ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:12: not found: type VertexRDD
+[error]   val inDegrees: VertexRDD[Int]
+[error]                  ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:13: not found: type VertexRDD
+[error]   val outDegrees: VertexRDD[Int]
+[error]                   ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:14: not found: type VertexRDD
+[error]   val degrees: VertexRDD[Int]
+[error]                ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:17: not found: type VertexRDD
+[error]   val vertices: VertexRDD[VD]
+[error]                 ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:18: not found: type EdgeRDD
+[error]   val edges: EdgeRDD[ED]
+[error]              ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:19: not found: type RDD
+[error]   val triplets: RDD[EdgeTriplet[VD, ED]]
+[error]                 ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:22: not found: type PartitionStrategy
+[error]   def partitionBy(partitionStrategy: PartitionStrategy): Graph[VD, ED]
+[error]                                      ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:25: not found: type VertexID
+[error]   def mapVertices[VD2](map: (VertexID, VD) => VD2): Graph[VD2, ED]
+[error]                              ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:26: com.sun.javafx.geom.Edge does not take type parameters
+[error]   def mapEdges[ED2](map: Edge[ED] => ED2): Graph[VD, ED2]
+[error]                          ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:27: not found: type PartitionID
+[error]   def mapEdges[ED2](map: (PartitionID, Iterator[Edge[ED]]) => Iterator[ED2]): Graph[VD, ED2]
+[error]                           ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:27: com.sun.javafx.geom.Edge does not take type parameters
+[error]   def mapEdges[ED2](map: (PartitionID, Iterator[Edge[ED]]) => Iterator[ED2]): Graph[VD, ED2]
+[error]                                                 ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:28: not found: type EdgeTriplet
+[error]   def mapTriplets[ED2](map: EdgeTriplet[VD, ED] => ED2): Graph[VD, ED2]
+[error]                             ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:33: not found: type EdgeTriplet
+[error]                 epred: EdgeTriplet[VD,ED] => Boolean = (x => true),
+[error]                        ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:34: not found: type VertexID
+[error]                 vpred: (VertexID, VD) => Boolean = ((v, d) => true))
+[error]                         ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:39: not found: type RDD
+[error]   def joinVertices[U](table: RDD[(VertexID, U)])(mapFunc: (VertexID, VD, U) => VD): Graph[VD, ED]
+[error]                              ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:39: not found: type VertexID
+[error]   def joinVertices[U](table: RDD[(VertexID, U)])(mapFunc: (VertexID, VD, U) => VD): Graph[VD, ED]
+[error]                                                            ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:40: not found: type RDD
+[error]   def outerJoinVertices[U, VD2](other: RDD[(VertexID, U)])
+[error]                                        ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:41: not found: type VertexID
+[error]                                (mapFunc: (VertexID, VD, Option[U]) => VD2)
+[error]                                           ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:45: not found: type VertexRDD
+[error]   def collectNeighbors(edgeDirection: EdgeDirection): VertexRDD[Array[(VertexID, VD)]]
+[error]                                                       ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:45: not found: type EdgeDirection
+[error]   def collectNeighbors(edgeDirection: EdgeDirection): VertexRDD[Array[(VertexID, VD)]]
+[error]                                       ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:49: not found: type VertexRDD
+[error]   : VertexRDD[A]
+[error]     ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:47: not found: type EdgeTriplet
+[error]                                       mapFunc: EdgeTriplet[VD, ED] => Iterator[(VertexID, A)],
+[error]                                                ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:47: not found: type VertexID
+[error]                                       mapFunc: EdgeTriplet[VD, ED] => Iterator[(VertexID, A)],
+[error]                                                                                 ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:52: not found: type EdgeDirection
+[error]   def pregel[A](initialMsg: A, maxIterations: Int, activeDirection: EdgeDirection)(
+[error]                                                                     ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:53: not found: type VertexID
+[error]     vprog: (VertexID, VD, A) => VD,
+[error]             ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:54: not found: type EdgeTriplet
+[error]     sendMsg: EdgeTriplet[VD, ED] => Iterator[(VertexID,A)],
+[error]              ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:54: not found: type VertexID
+[error]     sendMsg: EdgeTriplet[VD, ED] => Iterator[(VertexID,A)],
+[error]                                               ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:60: not found: type VertexID
+[error]   def connectedComponents(): Graph[VertexID, ED]
+[error]                                    ^
+[error] C:\Users\Venkata Govardhan\IdeaProjects\graphx\project\graphx.scala:62: not found: type VertexID
+[error]   def stronglyConnectedComponents(numIter: Int): Graph[VertexID, ED]
+[error]                                                        ^
+[error] 31 errors found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compileIncremental) Compilation failed
